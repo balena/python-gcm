@@ -1,0 +1,15 @@
+Source: python-gcm
+Section: python
+Priority: optional
+Maintainer: G. B. Versiani <guibv@yahoo.com>
+Build-Depends: python-all (>= 2.6.6-3), debhelper (>= 7)
+Standards-Version: 3.9.5
+Homepage: http://github.com/geeknam/python-gcm
+Vcs-Git: http://github.com/geeknam/python-gcm.git
+X-Python-Version: >= 2.7
+
+Package: python-gcm
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: Python library for GCM
+ Python client for Google Cloud Messaging for Android (GCM).
